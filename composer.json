@@ -1,5 +1,6 @@
 {
     "name": "macdada/one-interview-io-challenge",
+    "description": "oneinterview.io challenge in PHP at livestreaming.tv",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -8,5 +9,16 @@
             "email": "code@dnowak.pl"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-0": {
+            "MacDada\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "MacDada\\": "tests/"
+        }
+    }
 }
