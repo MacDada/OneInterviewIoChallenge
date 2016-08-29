@@ -1,0 +1,12 @@
+{
+    "name": "macdada/one-interview-io-challenge",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dawid Nowak",
+            "email": "code@dnowak.pl"
+        }
+    ],
+    "require": {}
+}
