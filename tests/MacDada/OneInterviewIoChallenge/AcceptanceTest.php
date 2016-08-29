@@ -6,6 +6,8 @@ class AcceptanceTest extends \PHPUnit_Framework_TestCase
 {
     public function testChallengeExample()
     {
+        $this->markTestIncomplete();
+
         $restaurants = [
             new Restaurant(0, "Domino's Pizza", 37.7577, -122.4376, 7, 23),
         ];
